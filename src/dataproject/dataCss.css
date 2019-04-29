@@ -1,0 +1,88 @@
+/*Name: Mohnish Gauni
+ *ID: 991519320
+ *Assignment: PROJECT
+ *Date: 4/7/2019
+ */
+
+
+.root{
+    -fx-font-family: "Courier new";
+    -fx-text-fill: darkgray;  
+}
+
+
+#grid{
+    -fx-border-color: gold;
+    -fx-border: solid gold;
+    -fx-border-width: 5px;
+    -fx-border-radius: 45px; 
+    -fx-background-radius: 50px;
+    -fx-background-color:linear-gradient(#262626,#262626,
+        black,black, black,black, #262626, #262626);
+    -fx-font-family: "courier new";
+    -fx-fill: darkgray;
+    -fx-pref-width: 300px;
+}
+
+#navError{
+    -fx-alignment: center-left;
+}
+
+.button{
+    -fx-background-color: gold;
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+    -fx-pref-width: 150px;
+    -fx-alignment: center;
+}
+.button:hover{
+    -fx-background-color: yellow;
+}
+
+.button:pressed{
+    -fx-background-color: whitesmoke;
+}
+
+.text-field{
+    -fx-font-family: "courier new";
+    -fx-background-color: black;
+    -fx-text-fill: darkgray; 
+    -fx-border-color: gold;
+    -fx-pref-width: 450px;
+    -fx-alignment: center;
+}
+
+.text-field:hover{
+    -fx-background-color: dimgray;
+}
+
+.radio-button{
+    -fx-pref-width: 150px;
+    -fx-text-fill: darkgray;
+}
+
+.label{
+    -fx-text-fill: darkgray;
+    -fx-pref-width: 300px;
+    -fx-alignment: center;
+}
+
+.image-view:hover{
+    -fx-cursor: hand;
+    -fx-alignment: center-right;
+    -fx-pref-width: 30px;
+}
+
+#nav{
+    -fx-pref-width: 50px;
+}
+
+.dialog-pane{
+    -fx-background-color: black;
+    -fx-border-color: white;
+}
+
+.dialog-pane:header *.header-panel{
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+}
